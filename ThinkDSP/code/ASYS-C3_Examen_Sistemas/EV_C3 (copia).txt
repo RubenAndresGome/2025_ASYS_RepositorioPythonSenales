@@ -2,7 +2,7 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": 32,
+   "execution_count": 13,
    "id": "d94e1a37-e403-42fc-a75f-4776522a3a46",
    "metadata": {},
    "outputs": [
@@ -51,7 +51,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 33,
+   "execution_count": 14,
    "id": "2f69d564-c2ae-479f-8dfd-2ac64dfcaea0",
    "metadata": {},
    "outputs": [
@@ -141,7 +141,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 34,
+   "execution_count": 23,
    "id": "70079c52-91f1-444d-ad8e-dc44c0a33f6e",
    "metadata": {},
    "outputs": [],
@@ -206,7 +206,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 35,
+   "execution_count": 24,
    "id": "ff961372-135d-4b4f-a968-ea25bb245e26",
    "metadata": {},
    "outputs": [],
@@ -301,7 +301,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 36,
+   "execution_count": 25,
    "id": "8190caa4-41a4-4916-8684-116e9c34f808",
    "metadata": {},
    "outputs": [],
@@ -358,7 +358,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 37,
+   "execution_count": 30,
    "id": "98ee0347-f343-4d73-b605-a13e6d31490a",
    "metadata": {},
    "outputs": [
@@ -379,7 +379,7 @@
      "traceback": [
       "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
       "\u001b[0;31mAttributeError\u001b[0m                            Traceback (most recent call last)",
-      "Cell \u001b[0;32mIn[37], line 49\u001b[0m\n\u001b[1;32m     47\u001b[0m \u001b[38;5;66;03m# 3. Graficar fase\u001b[39;00m\n\u001b[1;32m     48\u001b[0m plt\u001b[38;5;241m.\u001b[39msca(ax3)  \u001b[38;5;66;03m# Establecer los ejes actuales\u001b[39;00m\n\u001b[0;32m---> 49\u001b[0m spectrum\u001b[38;5;241m.\u001b[39mplot_phase(high\u001b[38;5;241m=\u001b[39mhigh_freq)\n\u001b[1;32m     50\u001b[0m ax3\u001b[38;5;241m.\u001b[39mset_title(\u001b[38;5;124m'\u001b[39m\u001b[38;5;124mFase\u001b[39m\u001b[38;5;124m'\u001b[39m)\n\u001b[1;32m     51\u001b[0m ax3\u001b[38;5;241m.\u001b[39mset_xlabel(\u001b[38;5;124m'\u001b[39m\u001b[38;5;124mFrecuencia (Hz)\u001b[39m\u001b[38;5;124m'\u001b[39m)\n",
+      "Cell \u001b[0;32mIn[30], line 49\u001b[0m\n\u001b[1;32m     47\u001b[0m \u001b[38;5;66;03m# 3. Graficar fase\u001b[39;00m\n\u001b[1;32m     48\u001b[0m plt\u001b[38;5;241m.\u001b[39msca(ax3)  \u001b[38;5;66;03m# Establecer los ejes actuales\u001b[39;00m\n\u001b[0;32m---> 49\u001b[0m spectrum\u001b[38;5;241m.\u001b[39mplot_phase(high\u001b[38;5;241m=\u001b[39mhigh_freq)\n\u001b[1;32m     50\u001b[0m ax3\u001b[38;5;241m.\u001b[39mset_title(\u001b[38;5;124m'\u001b[39m\u001b[38;5;124mFase\u001b[39m\u001b[38;5;124m'\u001b[39m)\n\u001b[1;32m     51\u001b[0m ax3\u001b[38;5;241m.\u001b[39mset_xlabel(\u001b[38;5;124m'\u001b[39m\u001b[38;5;124mFrecuencia (Hz)\u001b[39m\u001b[38;5;124m'\u001b[39m)\n",
       "\u001b[0;31mAttributeError\u001b[0m: 'Spectrum' object has no attribute 'plot_phase'"
      ]
     }
@@ -482,7 +482,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 38,
+   "execution_count": 31,
    "id": "2aa0b6d2-4d05-499c-a716-8c28cfa73f0d",
    "metadata": {},
    "outputs": [
